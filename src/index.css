@@ -1,0 +1,27 @@
+@tailwind base;
+@layer base {
+  body {
+    @apply bg-slate-100;
+  }
+    h1 {
+      @apply text-5xl font-semibold;
+    }
+    h2 {
+      @apply text-3xl font-semibold;
+    }
+    h3 {
+      @apply text-xl font-semibold;
+    }
+    a {
+      @apply text-emerald-500 hover:underline;
+    }
+  }
+@tailwind components;
+
+@layer components {
+  .button {
+    @apply bg-emerald-600 text-white p-3 rounded-md hover:bg-emerald-500;
+  }
+}
+
+@tailwind utilities;
